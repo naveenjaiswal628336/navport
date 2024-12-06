@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>My Portfolio</title>
+  <style>
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: white;
+  color: #726f6f;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+header {
+  background-color: Black;
+  color: aqua;
+  padding: 20px 0;
+}
+
+header h1 {
+  font-size: 2.5em;
+  text-align: center;
+}
+.he{
+    color:green;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: oblique;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color:pink;
+  text-decoration: none;
+  font-size: 1.2em;
+}
+#about {
+  padding: 50px 0;
+  color:Blue;
+  background-color:white;
+  text-align: center;
+}
+
+#about h2 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+#about p {
+  font-size: 1.2em;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+#projects {
+  padding: 50px 0;
+  background-color:lightcyan;
+  text-align: center;
+}
+
+#projects h2 {
+  font-size: 2.5em;
+  margin-bottom: 30px;
+}
+
+.project-list {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.project {
+  background-color:whitesmoke;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px aqua;
+  text-align: center;
+  width: 30%;
+}
+.project h3 {
+  font-size: 1.8em;
+  margin: 15px 0;
+}
+
+.project p {
+  font-size: 1em;
+  color: #666;
+}
+
+#skills {
+  padding: 50px 0;
+  color:black;
+  background-color:blanchedalmond;
+  text-align: center;
+}
+
+#skills h2 {
+  font-size: 2.5em;
+  margin-bottom: 30px;
+}
+
+#skills ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+#skills li {
+  font-size: 1.5em;
+  color: #333;
+}
+
+/* Contact Section */
+#contact {
+  padding: 50px 0;
+  background-color:ghostwhite;
+  text-align: center;
+}
+#contact h2 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+#contact button {
+  padding: 15px;
+  font-size: 1.5em;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+#contact button:hover {
+  background-color: #555;
+}
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+footer p {
+  font-size: 1em;
+}
+@media screen and (max-width: 768px) {
+  .project-list {
+    flex-direction: column;
+  }
+
+  .project {
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+<header>
+    <div class="container">
+      <h1>My Portfolio</h1>
+      <nav>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+<section id="about">
+    <div class="container">
+      <h2>About Me</h2>
+      <p class="he">Hello, My name is <strong>Naveen Jaiswal</strong> I'm a passionate web developer with experience in HTML, CSS, JavaScript.I love creating responsive and visually appealing websites.</p>
+    </div>
+  </section>
+<section id="projects">
+    <div class="container">
+      <h2>My Projects</h2>
+      <div class="project-list">
+        <div class="project">
+          
+          <h4>LIBRARY MANAGEMENT SYSTEM</h4>
+          <p>I have developed a good home interface where multiple operations of library are applied.Skills used in the project are HTML,CSS and JavaScript.</p>
+        </div>
+        <div class="project">
+          <h4>TO- DO LIST WEB PAGE</h4>
+          <p>developed a web page where important daily work could be added on the priority basis.Skills used in the project are HTML , CSS and JavaScript. </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="skills">
+    <div class="container">
+      <h2>Skills</h2>
+      <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+      </ul>
+    </div>
+  </section>
+  <section id="contact">
+    <div class="container">
+      <h2>Contact Me</h2>
+    <div>Whatsapp Number:7985091148</div>
+      <div>Email_ID:jaiswalnaveen2005@gmail.com</div>
+      
+      </form>
+    </div>
+  </section>
+  <footer>
+    <div class="container">
+      <p><marquee>All credits goes to my mentor SoftCode & Team</marquee></p>
+    </div>
+  </footer>
+
+</body>
+</html>
